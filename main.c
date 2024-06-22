@@ -67,7 +67,7 @@ int main(int argc, char *argv[]) {
         }
         break;
       case PERIMETER:
-        if (shapes[i].perimeterFunction!= NULL) {
+        if (shapes[i].perimeterFunction != NULL) {
           inputData.calculationFunction = shapes[i].perimeterFunction;
         } else {
           printf("This shape does not support this operation \n");
